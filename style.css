@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Exo+2&family=Indie+Flower&family=Single+Day&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #eddcfc;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+.container-1{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #150025;
+    background: linear-gradient(120deg ,#2a1c33,#19002c);
+}
+
+.header{
+    display: flex;
+    padding: 20px 60px;
+    background-color: rgb(23, 9, 42);
+    align-items: center;
+    position: relative;
+
+}
+
+ img , a.logo{
+    margin-left: 15%;
+    width: 45px;
+    height: 50px;
+}
+
+.navbar{
+    width: 30%;
+    display: flex;
+    list-style: none;
+    color: #fff;
+    right: 0;
+    margin-right: 15%;
+    position: absolute;
+    
+    
+}
+
+.navbar >a{
+    margin: 0 5%;
+    padding: 8px 10px;
+
+}
+
+.navbar > a:hover{
+    color: white;
+    background: radial-gradient( rgb(57, 25, 98), rgb(28, 2, 67));
+    text-align: center;
+    padding: 8px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* 
+section */
+
+.info-me{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+img.pic{
+    width: 400px;
+    height: fit-content;
+    margin-top: 10%;
+    margin-left: 15%;
+    background: radial-gradient( rgb(57, 25, 98), rgb(15, 1, 36));
+    border-top-right-radius: 15%; 
+    border-top-left-radius: 45%; 
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 60%;
+    transition: border-top-right-radius  3s, border-top-left-radius 3s,border-bottom-left-radius 3s, border-bottom-right-radius 3s ,background-color 1s;
+    
+}
+
+.pic:hover{
+    
+    border-top-right-radius: 45%; 
+    border-top-left-radius: 15%; 
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 30%;
+    background-color: linear-gradient(  rgb(15, 1, 36), rgb(57, 25, 98));
+}
+
+.about{
+    padding: 20px 60px;
+    margin-top: 10%;
+    position: absolute;
+    margin-left: 35%;
+    margin-right: 5%;
+}
+h1{
+    margin: 30px 0;
+    letter-spacing: 1px;
+}
+
+.about p{
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+
+
+
+
+.container-2{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #150025;
+    background: linear-gradient(120deg ,#19002c,#2a1c33);
+}
+
+.skill-img img{
+    
+    width:400px;
+    height: 400px;
+    margin-top: 15%;
+    position:absolute;
+    margin-left: 70%;
+    transition:  10s;
+}
+
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0% 15%;
+    
+}
+
+.skill-info p{
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 10px;
+    margin-right: 40%;
+    margin-top: 15%;
+    position: absolute;
+    background: radial-gradient( rgb(46, 25, 98), rgb(8, 1, 36));
+    padding: 60px;
+    border-top-right-radius: 55%; 
+    border-top-left-radius: 25%; 
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 10%;
+    border: 1px #18002c solid;
+}
+
+
+
+/* footer */
+
+.footer{
+    width: 100%;
+    background-color: #1a0231;
+    padding: 2% 10%;
+}
+
+
+
+li img{
+    margin: 10px 20px;
+    width: 40px;
+    height: 40px;
+    background: #eddcfc;
+    padding: 8px ;
+    margin: 0 10px;
+    margin-top: 30%;
+    
+    border: rgb(92, 75, 120) solid 2px;
+    border-radius: 10px;
+}
+.basic p{
+  margin: 1% 0;
+  margin-left: 10px;
+}
+.basic h2{
+    margin-bottom: 3%;
+    margin-left: 10px;
+}
+.mail{
+    margin-left: 10px;
+}
